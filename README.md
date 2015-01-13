@@ -20,13 +20,14 @@ Write your own configuration file (`config-example.js`) is a good starting point
 ***REMOVED***
 
 ***REMOVED***
-
+    bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   ***REMOVED***
       "APACHE": "https://issues.apache.org/jira/browse/",
       "REPLACE": "https://my.path.to.jira/browse/"
 ***REMOVED***
     pattern: /((REPLACE_ME))-\d+/g,
+    post: true //If true, than post a new message instead of updating the current
 
 ***REMOVED***
 
