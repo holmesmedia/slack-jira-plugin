@@ -1,7 +1,7 @@
 ***REMOVED***
 
 ***REMOVED***
-    bot_id: "",//Create a Bot in the Slack integrations and provide the id here
+    bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   ***REMOVED***
       "APACHE": "https://issues.apache.org/jira/browse/",
