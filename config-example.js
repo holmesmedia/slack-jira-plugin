@@ -10,7 +10,7 @@
 ***REMOVED***
     pattern: /((GRANT|BOB))-\d+/g, //NOTE this assumes all JIRA issues are like: PROJECT_NAME-1234
   ***REMOVED*** //If true, than post a new message instead of updating the current
-    verbose: true
+  ***REMOVED***
     emoji: ":jira:"
 ***REMOVED***
 
