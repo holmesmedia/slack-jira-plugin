@@ -27,7 +27,9 @@ Write your own configuration file (`config-example.js`) is a good starting point
       "REPLACE": "https://my.path.to.jira/browse/"
 ***REMOVED***
     pattern: /((REPLACE_ME))-\d+/g,
-    post: true //If true, than post a new message instead of updating the current
+  ***REMOVED*** //If true, than post a new message instead of updating the current
+    emoji: ":jira:",
+    link_separator: ", "// use \n if you want new lines
 
 ***REMOVED***
 

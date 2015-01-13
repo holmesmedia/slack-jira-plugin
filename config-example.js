@@ -11,7 +11,8 @@
     pattern: /((GRANT|BOB))-\d+/g, //NOTE this assumes all JIRA issues are like: PROJECT_NAME-1234
   ***REMOVED*** //If true, than post a new message instead of updating the current
   ***REMOVED***
-    emoji: ":jira:"
+    emoji: ":jira:",
+    link_separator: ", "// use \n if you want new lines
 ***REMOVED***
 
 ***REMOVED***
