@@ -23,20 +23,21 @@ Write your own configuration file (`config-example.js`) is a good starting point
     bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   ***REMOVED***
-      "APACHE": "https://issues.apache.org/jira/browse/",
-      "REPLACE": "https://my.path.to.jira/browse/"
+      "SOLR": "https://issues.apache.org/jira/browse/",
+      "GRANT": "http://grant.jira.server/jira/browse/",
+      "DEFAULT": "https://default.jira.server/browse/"
 ***REMOVED***
-    pattern: /((REPLACE_ME))-\d+/g,
-  ***REMOVED*** //If true, than post a new message instead of updating the current
+    // The first capturing group is the whole issue ID, the second group is the project name
+    pattern: /(?:\W|^)((SOLR|GRANT|BOB)-\d+)(?:(?!\W)|$)/g, //NOTE this assumes all JIRA issues are like: PROJECT-1234
+  ***REMOVED*** //If true, than post a new message instead of updating the current message
+  ***REMOVED***
     emoji: ":jira:",
     link_separator: ", "// use \n if you want new lines
-
 ***REMOVED***
 
-//DO NOT EDIT
 ***REMOVED***
 ***REMOVED***
-
+***REMOVED***
 ```
 
 Save this to a file in the root of the project then run your bot with:

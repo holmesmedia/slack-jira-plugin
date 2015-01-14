@@ -4,11 +4,12 @@
     bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   ***REMOVED***
-      "APACHE": "https://issues.apache.org/jira/browse/",
-      "REPLACE": "https://my.path.to.jira/browse/",
-      "DEFAULT": "https://my.path.to.jira/browse/"
+      "SOLR": "https://issues.apache.org/jira/browse/",
+      "GRANT": "http://grant.jira.server/jira/browse/",
+      "DEFAULT": "https://default.jira.server/browse/"
 ***REMOVED***
-    pattern: /((GRANT|BOB))-\d+/g, //NOTE this assumes all JIRA issues are like: PROJECT_NAME-1234
+    // The first capturing group is the whole issue ID, the second group is the project name  
+    pattern: /(?:\W|^)((SOLR|GRANT|BOB)-\d+)(?:(?!\W)|$)/g, //NOTE this assumes all JIRA issues are like: PROJECT-1234
   ***REMOVED*** //If true, than post a new message instead of updating the current
   ***REMOVED***
     emoji: ":jira:",
