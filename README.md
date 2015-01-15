@@ -21,7 +21,7 @@ Write your own configuration file (`config-example.js`) is a good starting point
 
 ***REMOVED***
     bot_name: "",//Provide the name to post under
-    token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
+    token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX', //get from https://api.slack.com/web#basics
   ***REMOVED***
       "SOLR": "https://issues.apache.org/jira/browse/",
       "GRANT": "http://grant.jira.server/jira/browse/",
