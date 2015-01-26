@@ -1,6 +1,15 @@
 ***REMOVED***
 
 ***REMOVED***
+    jira: {
+      user: 'foo.bar',
+      password: 's3kR3t',
+      host: 'jira.foobar.com',
+      protocol: 'https',
+      port: 443,
+      version: '2',
+      strictSSL: true
+***REMOVED***
     bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   ***REMOVED***
