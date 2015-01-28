@@ -20,6 +20,7 @@
 ***REMOVED***
     projects: ["REPLACE", "ME", "WITH", "YOUR", "PROJECT", "NAMES"],
   ***REMOVED***
+  ***REMOVED***
     emoji: ":jira:",
     link_separator: ", "// use \n if you want new lines
 ***REMOVED***
