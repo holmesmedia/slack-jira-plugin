@@ -10,6 +10,7 @@
       version: '2',
       strictSSL: true
 ***REMOVED***
+  ***REMOVED***
     bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   ***REMOVED***
