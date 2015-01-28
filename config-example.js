@@ -19,7 +19,6 @@
       "DEFAULT": "https://default.jira.server/browse/"
 ***REMOVED***
     projects: ["REPLACE", "ME", "WITH", "YOUR", "PROJECT", "NAMES"],
-  ***REMOVED*** //If true, than post a new message instead of updating the current
   ***REMOVED***
     emoji: ":jira:",
     link_separator: ", "// use \n if you want new lines
