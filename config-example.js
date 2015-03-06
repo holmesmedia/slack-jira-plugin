@@ -22,7 +22,8 @@
 ***REMOVED***url: "https://default.jira.server/browse/"}
 ***REMOVED***
   search_cmd: "search",
-  search_output_chan: "C02U1L9KZ",
+***REMOVED***
+  search_output_chan: "C02U1L9KZ",//if the value is "this", then the current channel will be used, else the name of a channel
   projects: ["REPLACE", "ME", "WITH", "YOUR", "PROJECT", "NAMES"],
 ***REMOVED***
 ***REMOVED***
