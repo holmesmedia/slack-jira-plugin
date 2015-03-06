@@ -25,7 +25,8 @@
 ***REMOVED***
 ***REMOVED***
   emoji: ":jira:",
-  link_separator: ", "// use \n if you want new lines
+  link_separator: ", ",// use \n if you want new lines
+  error_channel: '' //the id of the channel to send low level log errors.  If not defined, will use the current channel
 ***REMOVED***
 
 ***REMOVED***
