@@ -3,6 +3,7 @@
 ***REMOVED***
 
 ***REMOVED***
+  issueDetailsToShow: {'fields.summary':1 , 'fields.assignee' : 1, 'fields.description': 0},
   showDetailsByDefault: true,//if true, you don't need the '+' to get details
   bot_name: "jira",//Provide the name to post under
   token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX', // https://api.slack.com/web
