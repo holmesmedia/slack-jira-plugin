@@ -3,6 +3,7 @@
 ***REMOVED***
 
 ***REMOVED***
+***REMOVED***
   showDetailsByDefault: true,//if true, you don't need the '+' to get details
   bot_name: "jira",//Provide the name to post under
   token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX', // https://api.slack.com/web
@@ -30,6 +31,9 @@
   search_output_chan: "C02U1L9KZ",//if the value is "this", then the current channel will be used, else the name of a channel
   projects: ["REPLACE", "ME", "WITH", "YOUR", "PROJECT", "NAMES", "GRANT", "SOLR"],
 ***REMOVED***
+***REMOVED***
+***REMOVED***
+    messagePrefix: "Hey, thought this might help: " //message you might like to prefix to JiraBot's post
 ***REMOVED***
 ***REMOVED***
   link_separator: ", ",// use \n if you want new lines
