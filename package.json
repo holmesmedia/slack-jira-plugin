@@ -2,6 +2,9 @@
   "name": "slack-jira-plugin",
   "description": "Integrate JIRA and Slack.",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node jirabot.js"
+***REMOVED***
   "homepage": "https://github.com/gsingers/slack-jira-plugin",
   "author": {
     "name": "Grant Ingersoll",
