@@ -4,35 +4,35 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node jirabot.js"
-***REMOVED***
+  },
   "homepage": "https://github.com/gsingers/slack-jira-plugin",
   "author": {
     "name": "Grant Ingersoll",
     "email": "gsingers@apache.org",
     "url": "http://grantingersoll.com"
-***REMOVED***
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/gsingers/slack-jira-plugin.git"
-***REMOVED***
+  },
   "bugs": {
     "url": "https://github.com/gsingers/slack-jira-plugin/issues"
-***REMOVED***
+  },
   "license": "MIT",
   "engines": {
     "node": "*"
-***REMOVED***
+  },
   "dependencies": {
     "request": "~2.60.0",
     "underscore": "^1.7.0",
     "node-slackbot": "0.0.6",
     "jira": "0.9.2",
     "q": "1.1.2"
-***REMOVED***
+  },
   "devDependencies": {},
   "bin": {
     "bot": "bin/bot.js"
-***REMOVED***
+  },
   "keywords": [
     "slack",
     "jira"
